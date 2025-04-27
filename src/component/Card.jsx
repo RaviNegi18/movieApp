@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Card = ({ data, trending, index, media_type }) => {
   const imageURL = useSelector((state) => state.movie.imageUrl);
   const mediaType = data.media_type ?? media_type;
-  //   console.log("imga", imageURL);
+
   return (
     <Link
       to={"/" + mediaType + "/" + data.id}
