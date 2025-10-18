@@ -1,4 +1,4 @@
-# 🎬 Movies X
+# 🎬 Movies APP
 
 Movies X is a modern movie application built with **React** and **Tailwind CSS**, leveraging a movie API to show trending, recommended, popular, upcoming, and top-rated movies. The app features a **responsive UI** with carousels, slides, and banners for a smooth mobile and desktop experience.
 
