@@ -45,7 +45,7 @@ Check the live demo here:   https://movie-app-sigma-flame.vercel.app/
 
 1. Clone the repository:
    ```bash
-   git clone <YOUR_GITHUB_URL>
+   git clone url
 
  2. cd movies-x
 
