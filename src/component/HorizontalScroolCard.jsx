@@ -20,7 +20,7 @@ const HorizontalScroolCard = ({ data = [], heading, trending, media_type }) => {
         <div className=" relative">
           <div
             ref={containerRef}
-            className="grid overflow-hidden grid-cols-[repeat(auto-fit,230px)] grid-flow-col gap-6 overflow-x-scroll relative z-10 scroll-smooth transition-all scrolbar-none"
+            className="grid scrollbar-none overflow-hidden grid-cols-[repeat(auto-fit,230px)] grid-flow-col gap-6 overflow-x-scroll relative z-10 scroll-smooth transition-all scrolbar-none"
           >
             {data.map((data, index) => {
               return (
@@ -37,13 +37,13 @@ const HorizontalScroolCard = ({ data = [], heading, trending, media_type }) => {
           <div className="absolute hidden top-0 lg:flex justify-between w-full h-full items-center">
             <button
               onClick={handlePrev}
-              className="bg-white text-black p-1 rounded-full -ml-1 z-10"
+              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 lg:p-3"
             >
               <FaAngleLeft />
             </button>
             <button
               onClick={handleNext}
-              className="bg-white text-black p-1 rounded-full -ml-1 z-10"
+              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 lg:p-3"
             >
               <FaAngleRight />
             </button>
