@@ -37,13 +37,13 @@ const HorizontalScroolCard = ({ data = [], heading, trending, media_type }) => {
           <div className="absolute hidden top-0 lg:flex justify-between w-full h-full items-center">
             <button
               onClick={handlePrev}
-              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 lg:p-3"
+              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 xl:p-3 hover:bg-gray-300"
             >
               <FaAngleLeft />
             </button>
             <button
               onClick={handleNext}
-              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 lg:p-3"
+              className="bg-white text-black p-1 rounded-full -ml-1 z-10 md:p-2 xl:p-3 hover:bg-gray-300"
             >
               <FaAngleRight />
             </button>
