@@ -15,13 +15,13 @@ const DetailsPage = () => {
   );
 
   const { data: similarData } = useFetch(
-    `  /${params?.explore}/${params?.id}/similar`
+    `/${params?.explore}/${params?.id}/similar`
   );
 
   console.log("similaardata", similarData);
 
   const { data: recomendationData } = useFetch(
-    `/${params?.explore}/${params?.id}/ recommendations`
+    `/${params?.explore}/${params?.id}/recommendations`
   );
   const duration = data?.runtime
     ? `${Math.floor(data.runtime / 60)}h ${data.runtime % 60}m`

@@ -19,7 +19,7 @@ const useFetch = (endpoint) => {
   useEffect(() => {
     fetchData();
   }, [endpoint]);
-
+console.log("here is the data============",data)
   return { data, loading };
 };
 
